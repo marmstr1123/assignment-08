@@ -1,0 +1,131 @@
+@import "./imports/_normalize.scss";
+
+*{ box-sizing: border-box }
+img {
+   width: 100%;
+   display: block;
+}
+span{
+   color:#7AC0CE;
+}
+
+#app-container{
+   max-width: 1024px;
+   font-size: 0;
+   margin: 0 auto;
+   .first-block{
+      background: url("../images/roomies-eating-together-bg.jpg") center center no-repeat;
+      padding-bottom: 200px;
+   }
+   .header{
+      width:100%;
+      padding:10px;
+      margin: 0 auto;
+      color:#FFF;
+   }
+   .header > * {
+      padding:10px;
+      padding-top: 50px;
+      display:inline-block;
+      font-size: medium;
+      width:85%;
+   }
+   .header > .bars{
+      text-align: right;
+   }
+   .header > .icon{
+      height:20px;
+      width:100px;
+   }
+   .thumbnail {
+      padding: 0px;
+      border: none;
+      border-radius: 0px;
+   }
+   .column-container1{
+      color:#FFF;
+      text-align: center;
+   }
+   .column-container1 .input-group{
+      margin: 0 auto;
+      width: 60%;
+   }
+   .fa{
+      height:1.45em;
+      color:white;
+   }
+   .input-group-btn:last-child>.btn {
+      background:#7AC0CE;
+   }
+   .grid1{
+      margin: 0 auto;
+      text-align: center;
+   }
+   .grid1 > * > * {
+      border: none;
+   }
+   .grid1 .thumbnail > img{
+      height:200px;
+      width:200px;
+
+   }
+   .cfs-box{
+      background: url('../images/happy-roomies-bg.jpg')center center no-repeat;
+      color: #FFF;
+   }
+   .flex-item{
+      display: flex;
+      justify-content: space-around;
+   }
+   .flex-test{
+      width: 50px;
+   }
+   .bar-st{
+      padding-bottom: 50px;
+   }
+   .bar-st > .send-bar{
+      width: 60%;
+      padding-right: 25px;
+   }
+   .bar-st > .flex-item{
+      width: 40%;
+   }
+   .jumbotron{
+      text-align: center;
+      vertical-align: top;
+      margin:0 auto;
+   }
+   .jumbotron1{
+      background: #7AC0CE;
+   }
+   .btn-group-lg>.btn, .btn-lg{
+      background-color: #35414E;
+   }
+   .jumbotron2 > h1{
+      color:#7AC0CE;
+   }
+   .grid-6{
+      margin: 0 auto;
+      text-align:center;
+      padding-bottom: 15px;
+   }
+   .orange-box {
+      background-color: #F7C760;
+      padding-top: 10px;
+      font-size: medium;
+      margin: 0 auto;
+      text-align: center;
+      padding: 10px;
+   }
+   .last-block{
+      margin: 0 auto;
+      background-color: #35414E;
+      padding-top: 10px;
+   }
+   .last-block .thumbnail .caption{
+      background-color: #35414E;
+      color:#FFF;
+   }
+
+
+}
